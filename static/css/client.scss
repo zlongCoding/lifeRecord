@@ -1,0 +1,25 @@
+.lift-row {
+  &:after,
+  &:before {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+.lift-col-md8,
+.lift-col-md4 {
+  padding: 10px;
+}
+@media screen and (min-width: 767px) {
+  .lift-col-md8,
+  .lift-col-md4 {
+    float: left;
+  }
+  .lift-col-md8 {
+    width: 66.66666667%;
+  }
+  .lift-col-md4 {
+    width: 33.33333333%;
+  }
+}
+
